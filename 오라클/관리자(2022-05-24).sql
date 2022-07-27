@@ -29,3 +29,6 @@ GRANT DBA TO user3;
 
 -- 권한 회수하기
 REVOKE DBA FROM user3;
+
+select * from dba_tablespaces;
+

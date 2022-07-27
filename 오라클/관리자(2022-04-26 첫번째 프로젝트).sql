@@ -42,7 +42,7 @@ DEFAULT TABLESPACE firstDB;
 ALTER USER user1 DEFAULT TABLESPACE firstDB;
 
 -- 사용자 삭제 (데이터 손실 위험이 있으니 가급적 X )
--- DROP USER user1 CASCADE;
+DROP USER book1 CASCADE;
 
 /*
 오라클에서 새로운 사용자를 생성하면 생성된 사용자는 아무런 권한이 없다
